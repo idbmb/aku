@@ -1,0 +1,13 @@
+<footer class="mb-4">
+  <span class="markdownify">{{ .Site.Params.copyright | markdownify }}</span>
+  <span {{ if not .Site.Params.theme.showAttribute }}style="font-size:0px;" {{ end }}>
+    &middot;
+    <a href="https://github.com/idbmb/aku">
+      BRKP
+    </a>
+    by
+    <a href="https://idbmb.my.id/">
+      Idbmb
+    </a>
+  </span>
+</footer>

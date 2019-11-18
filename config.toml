@@ -1,0 +1,225 @@
+baseURL = "/"
+languageCode = "en-us"
+theme = "aafu-idbmb"
+
+# Disable unnecessary kinds
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+
+
+[params]
+    title = "Bambang Rahmadi Kurniawan Payu"
+    author = "Bambang"
+    description = "Personal Website Bambang Rahmadi Kurniawan Payu"
+    copyright = "Aku"
+
+    [params.theme]
+        allowToggle = true
+        # Available themes are 'light', 'dark', and 'pinkish'
+        mainTheme = "light"
+        altTheme = "dark"
+        # setting false below will hide 'aafu by darshan' displayed under the profile pic
+        showAttribute = true
+
+    [params.favicons]
+        use = true
+        metas = '''
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+        <link rel="shortcut icon" href="favicon.ico">
+        '''
+
+    # Profile section
+    [params.profile]
+        name = "Bambang Rahmadi Kurniawan Payu."
+		tagline = "Open Source Enthusiast"
+		location = "Indonesia, ID"
+        photo = "profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-linkedin-in"
+            url = "https://www.linkedin.com/in/idbmb/"
+            title = "LinkedIn"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-github"
+            url = "https://github.com/idbmb"
+            title = "GitHub"
+        [[params.social.list]]
+            class = "fab"
+            icon = "fa-twitter"
+            url = "https://twitter.com/bambang_rahmadi"
+            title = "Twitter"
+       [[params.social.list]]
+            class = "fab"
+            icon = "fa-telegram"
+            url = "https://t.me/idbmb"
+            title = "Telegram"
+        [[params.social.list]]
+            class = "fas"
+            icon = "fa-envelope"
+            url = "mailto:idbmb@pm.me"
+            title = "E-mail"
+   # [[params.social.list]]
+   #          class = "fab"
+   #          icon = "fa-stack-overflow"
+   #          url = "#"
+   #          title = "StackOverflow"
+   #  [[params.social.list]]
+   #          class = "ai"
+   #          icon = "ai-google-scholar"
+   #          url = "#"
+   #          title = "Google Scholar"
+		# [[params.social.list]]
+   #          class = "ai"
+   #          icon = "ai-researchgate"
+   #          url = "#"
+   #          title = "ResearchGate"
+
+    #Specify what is showin in the Accordion
+    [[params.showInAccordion]]
+        item = "aboutme"
+        expand = true   # true for the section that is initially expanded
+    [[params.showInAccordion]]
+        item = "experience"
+    [[params.showInAccordion]]
+        item = "education"
+    [[params.showInAccordion]]
+        item = "publication"
+    [[params.showInAccordion]]
+        item = "project"
+    [[params.showInAccordion]]
+        item = "skill"
+    [[params.showInAccordion]]
+        item = "hobby"
+
+    [params.aboutme]
+        title = "About Me"
+        icon = "fas fa-user"
+        description = "**Bambang Rahmadi Kurniawan Payu** - An Ordinary Indonesian, I am a sociable person and adaptable to new environments, I love open source and challenges, making it easier for me to learn something new and have a high work ethic."
+
+    # Experience section
+    [params.experience]
+        title = "Experiences"
+        icon = "fas fa-briefcase"
+
+        [[params.experience.list]]
+            position = "Onsite Engineer"
+            dates = "2018 - *Present*"
+            link = "https://www.telkomsat.co.id"
+            company = "Telkomsat"
+            details = "Manage Services Cisco Router, Switch Cisco Catalyst and MCS (Mobile Connectivity Services) in one of Customer TOP 20 Telkom Group"
+        [[params.experience.list]]
+            position = "Network Operations Center"
+            dates = "2017 - 2018"
+            link = "https://www.metrasat.co.id"
+            company = "Metrasat"
+            details = "Monitoring links and receiving incoming complaints from customers complaining / asking about services, products, services from providers then following up, analyzing and checking so that the problems / customer questions are solved."
+
+    # Education section
+    [params.education]
+        title = "Education"
+        icon = "fas fa-graduation-cap"
+
+        [[params.education.list]]
+            degree = "S.Kom. in Computer Science"
+            college = "University Ichsan Gorontalo"
+            dates = "2011 - 2016"
+            # thesis_title = ""
+            # thesis_link = "#"
+        [[params.education.list]]
+            degree = "Computer Network Engineering"
+            college = "Vocational High School (SMKN 1 Gorontalo)"
+            dates = "2008 - 2011"
+            # thesis_title = ""
+            # thesis_link = "#"
+
+    # # Publication section
+    # [params.publication]
+    #     title = "Publications"
+    #     icon = "fas fa-book"
+    #     #The order below determines the order in which the items appear in "Publications" section
+    #     format = ["date", "authors", "title", "journal"]
+    #     #If you don't want to group publications, comment the line below by adding # at the beginning
+    #     types = ["Journal Articles", "Proceedings"]
+    #
+    #     [[params.publication.list]]
+    #         title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    #         authors = "F Last, F Second, P secondary"
+    #         date = "2018"
+    #         journal = "Journal of Field 52 (16), 9033-9044"
+    #         link = "#"
+    #         type = "Journal Articles"
+    #
+    #     [[params.publication.list]]
+    #         title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    #         authors = "F Last, F Second, P secondary"
+    #         date = "2018"
+    #         journal = "Journal of Field 52 (16), 9033-9044"
+    #         link = "#"
+    #         type = "Journal Articles"
+    #
+    #     [[params.publication.list]]
+    #         title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    #         authors = "F Last, F Second, P secondary"
+    #         date = "2018"
+    #         journal = "Journal of Field 52 (16), 9033-9044"
+    #         link = "#"
+    #         type = "Proceedings"
+
+    # Project section
+    [params.project]
+        title = "Projects"
+        icon = "fas fa-project-diagram"
+
+        [[params.project.list]]
+            title = "OWASP - SecureTea Project Tool"
+            url = "https://idbmb.my.id/project/owasp-securetea-project-tool/"
+            description = "The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices)"
+        [[params.project.list]]
+            title = "Matory - Mall Directory Chatbot"
+            url = "https://idbmb.my.id/project/landing-page-matory/"
+            description = "Matory is a LINE bot that functions to find the location of stores in various malls. At this time, Matory is only able to provide information about the location of stores in malls in the Jakarta city area. Take it easy, Matory will study hard to find out the position of stores in various malls throughout Indonesia."
+        [[params.project.list]]
+            title = "Gorontalo Words Mobile"
+            url = "https://idbmb.my.id/project/android-application-webview/"
+            description = "Gorontalowords.com is an application designed to hone regional language skills (Gorontalo Language) in the form of a game of arranging letters into one word, this application exists to preserve local languages to create a positive impact on Indonesia."
+        [[params.project.list]]
+            title = "Online Radio School"
+            url = "https://idbmb.my.id/project/web-service-broadcasting/"
+            description = "The First Streaming Radio Online in Gorontalo - SMK Negeri 1 Gorontalo"
+
+    # Skill section
+    [params.skill]
+        title = "Skills"
+        panelId = "skill-panel"
+        icon = "fas fa-cogs"
+
+        [[params.skill.list]]
+            skill = "Network Engineering"
+            skillrating = 90
+        [[params.skill.list]]
+            skill = "Web Development"
+            skillrating = 80
+        [[params.skill.list]]
+            skill = "Mobile Development"
+            skillrating = 50
+
+    # Hobby section
+    [params.hobby]
+        title = "Hobbies"
+        icon = "fas fa-gamepad"
+
+        [[params.hobby.list]]
+		    hobby = "Archery"
+        [[params.hobby.list]]
+		    hobby = "Swim"
+        [[params.hobby.list]]
+		    hobby = "Horse Riding"
