@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="left">
   <a href="https://aku.idbmb.my.id/">AKU</a>
   <h4>👨‍💻 Personal Website of Bambang Rahmadi K.P<a href="https://github.com/idbmb/aku" target="_blank"></a></h4>
 </h1>
