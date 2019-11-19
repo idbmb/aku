@@ -43,6 +43,11 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
         title = "Links"
 
         [[params.social.list]]
+            class = "fas"
+            icon = "fa-book-reader"
+            url = "https://idbmb.my.id"
+            title = "Blog"
+        [[params.social.list]]
             class = "fab"
             icon = "fa-linkedin-in"
             url = "https://www.linkedin.com/in/idbmb/"

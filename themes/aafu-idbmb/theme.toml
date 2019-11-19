@@ -7,10 +7,10 @@ tags = ["portfolio", "single page", "resume"]
 features = ["responsive", "dark", "clean"]
 min_version = "0.55"
 
-[author]
+[author-1]
   name = "Darshan Baral"
   homepage = "https://www.darshanbaral.com/"
 
-[author]
+[author-2]
   name = "Bambang Rahmadi KP"
   homepage = "https://idbmb.my.id/"
