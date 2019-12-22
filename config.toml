@@ -186,19 +186,19 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 
         [[params.project.list]]
             title = "OWASP - SecureTea Project Tool"
-            url = "https://idbmb.my.id/project/owasp-securetea-project-tool/"
+            url = "https://idbmb.my.id/owasp-securetea-project-tool/"
             description = "The OWASP SecureTea Project provides a one-stop security solution for various devices (personal computers / servers / IoT devices)"
         [[params.project.list]]
             title = "Matory - Mall Directory Chatbot"
-            url = "https://idbmb.my.id/project/landing-page-matory/"
+            url = "https://idbmb.my.id/landing-page-matory/"
             description = "Matory is a LINE bot that functions to find the location of stores in various malls. At this time, Matory is only able to provide information about the location of stores in malls in the Jakarta city area. Take it easy, Matory will study hard to find out the position of stores in various malls throughout Indonesia."
         [[params.project.list]]
             title = "Gorontalo Words Mobile"
-            url = "https://idbmb.my.id/project/android-application-webview/"
+            url = "https://idbmb.my.id/android-application-webview/"
             description = "Gorontalowords.com is an application designed to hone regional language skills (Gorontalo Language) in the form of a game of arranging letters into one word, this application exists to preserve local languages to create a positive impact on Indonesia."
         [[params.project.list]]
             title = "Online Radio School"
-            url = "https://idbmb.my.id/project/web-service-broadcasting/"
+            url = "https://idbmb.my.id/web-service-broadcasting/"
             description = "The First Streaming Radio Online in Gorontalo - SMK Negeri 1 Gorontalo"
 
     # Skill section

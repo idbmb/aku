@@ -6,7 +6,7 @@ echo -e "\033[0;32mPushing updates to GitHub...\033[0m"
 git add .
 
 # Buat sebuah commit baru
-msg="rebuilding site $(date)"
+msg=":rocket: rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
